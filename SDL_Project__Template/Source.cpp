@@ -1,6 +1,6 @@
 #include "Game.h"
 #include <iostream>
-
+#undef main
 int main(int argc, char* argv[])
 {
 	Game* gptr = nullptr;
